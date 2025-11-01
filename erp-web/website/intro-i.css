@@ -1,0 +1,54 @@
+.container-i{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#c1-i img {
+    height: 600px;
+    width: 750px;
+}
+.content-container-i {
+    margin-left: 10px;
+    }
+#imgblur-i {
+    margin-left: 760px;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 915px;
+    height: 700px;
+    background-image: url(rvit.jpeg); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(6px); /* Apply the blur here */
+    -webkit-filter: blur(6px);
+    z-index: -1; /* Send behind other content */
+}
+#para-i {
+        color: rgb(169, 243, 89);
+        font-size: large;
+        font-weight: 500;
+        background-color: rgba(55, 49, 49,0.4);
+        height: 70%;
+        width:94%;
+        padding: 20px;
+}
+#h1-i {
+ 
+    padding: 25px;
+    color: white;
+    background-color: rgba(55, 49, 49,0.4);
+    font-size: xx-large;
+    text-decoration: underline;
+    width: 37%;
+
+}
+#para-i:hover {
+    color: rgb(212, 230, 193);
+}
+#h1-i:hover {
+    color: rgb(167, 240, 149);
+    text-decoration: underline;
+}
